@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<script src="storageData.js"></script>
+		<title>Program Management</title>
+		
+	</head>
+	<body>
+		<!-- hello code, you're the only one who sees me-->
+		<h1>Program Management</h1>
+		<div class="container">
+			<div class="box1">
+				<h2>Add New Budget</h2>
+
+				<form class="form">
+				    <label>Client Name</label><br>
+				    <input type="text" id="Clientname"/><br/><br>
+				    <label>Project Name</label><br>
+				    <input type="text" id="projName"/><br/><br>
+				    <label>Budget</label><br>
+				    <input type="number" id="budget"/><br/><br>
+				    <input type="button" value="Add" onclick="onFormSubmit()">
+				    <input type="button" value="Clear" onclick="form.reset()"><br/>				    
+				</form>
+
+				<nav> 
+
+					<div class="back"><a href="main.html">Back</a></div>
+					<input type="button" value="Store" onclick="storeInSession()"><br/>		
+				</nav>
+			</div>
+		</div>
+
+	</body>
+
+</html>
