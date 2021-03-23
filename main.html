@@ -5,21 +5,62 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="style.css">
-		<script src="storageData.js"></script>
-		<title>Main Page</title>
+		<script src="script.js"></script>
+		<title>Shopping Cart</title>
 		
 	</head>
 	<body>
 		<!-- hello code, you're the only one who sees me-->
-		<h1>Main Page</h1>
+		<h1>Shopping Cart</h1>
 		<div class="container">
 			<div class="box1">
+			<!--	<h4>Cart Size: </h4> <var id="size"></var> -->
 				<nav>
-					<div class="link"><a href='pm.html'>Program Management</a></div>
-					<div class="link"><a href="ft.html">Finance Teams</a></div>
+					<div class="back"><a href="Checkout.html">Checkout</a></div> 
+					<br>
+					<input type="button" value="Store" onclick="storeInSession()"><br/>	
+					<br>	
 				</nav>
+				<div class="Item">
+					<br>
+					<p class="description" id= "window">Window </p><p class="description" id="windowprice"> $100
+					</p>
+				    <input type="button" value="Add" onclick="onFormSubmitwindow()">
+				</div>
+				<div class="Item">
+					<br>
+					<p class="description" id="laptop">Laptop </p><p class="description" id="laptopprice"> $500
+					</p>
+				    <input type="button" value="Add" onclick="onFormSubmitlaptop()">
+				</div>
+				<div class="Item">
+					<br>
+					<p class="description" id="sportscar">Sportscar </p><p class="description" id="sportscarprice"></p>$1000
+					</p>
+				    <input type="button" value="Add" onclick="onFormSubmitsportscar()">
+				</div>
+				<div class="Item">
+					<br>
+					<p class="description" id="knife">Butterfly Knife </p><p class="description" id="knifeprice">$600
+					</p>
+				    <input type="button" value="Add" onclick="onFormSubmitknife()">
+				</div>
+				<div class="Item">
+					<br>
+					<p class="description" id="pipe">Pipe </p><p class="description" id="pipeprice"> $10
+					</p>
+				    <input type="button" value="Add" onclick="onFormSubmitpipe()">
+				</div>
+				<div class="Item">
+					<br>
+					<p class="description" id="butterfly">Butterfly </p><p class="description" id="butterflyprice"> $750
+					</p>
+				    <input type="button" value="Add" onclick="onFormSubmitbutterfly()">
+				</div>
+				
 			</div>
 		</div>
+
 	</body>
 
 </html>
