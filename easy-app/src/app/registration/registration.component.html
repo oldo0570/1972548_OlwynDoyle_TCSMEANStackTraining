@@ -1,0 +1,15 @@
+<div>
+  <h2>Registration Page</h2>
+  <form #userRef="ngForm" (ngSubmit)="setUser(userRef.value)">
+    <label>First Name</label>
+    <input type="text" name="first"><br>
+    <label>Last Name</label>
+    <input type="text" name="last"><br>
+    <label>Username</label>
+    <input type="text" name="user" ngModel><br>
+    <label>Password</label>
+    <input type="password" name="pass" ngModel><br>
+    <input type="submit" name="submit"><br>
+    <input type="reset" name="reset" /><br />
+  </form>
+</div>
