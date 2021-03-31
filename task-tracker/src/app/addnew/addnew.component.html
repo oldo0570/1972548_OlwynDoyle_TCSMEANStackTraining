@@ -1,0 +1,23 @@
+<div>
+  <form #userRef="ngForm" (ngSubmit)="storeValue(userRef.value)">
+    <br />
+    <mat-form-field>
+      <mat-label>ID </mat-label>
+      <input matInput type="text" name="id" ngModel>
+    </mat-form-field><br>
+    <mat-form-field>
+      <mat-label>Name </mat-label>
+      <input matInput type="text" name="name" ngModel>
+    </mat-form-field><br>
+    <mat-form-field>
+      <mat-label>Task </mat-label>
+      <input matInput type="text" name="task" ngModel>
+    </mat-form-field><br>
+    <mat-form-field>
+      <mat-label>Deadline </mat-label>
+      <input matInput type="date" name="deadline" ngModel>
+    </mat-form-field><br>
+    <button mat-stroked-button color="primary" style="background-color:cornflowerblue" type="submit" name="submit">Store</button>
+    <button mat-stroked-button color="primary" style="background-color:orangered" type="reset" name="reset">Clear</button>
+  </form>
+</div>

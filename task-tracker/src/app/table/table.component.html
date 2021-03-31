@@ -1,0 +1,14 @@
+<table border="1">
+  <tr>
+    <th>UserId</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Completed</th>
+  </tr>
+  <tr *ngFor="let data of tasks">
+    <td>{{data.id}}</td>
+    <td>{{data.name}}</td>
+    <td>{{data.task}}</td>
+    <td>{{data.deadline}}</td>
+  </tr>
+</table>
