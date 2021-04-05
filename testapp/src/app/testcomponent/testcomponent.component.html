@@ -1,0 +1,97 @@
+<div id ="quiz">
+  <form #userRef="ngForm" (ngSubmit)="submitAnswers(userRef.value)">
+    <br />
+    <mat-radio-group name ="q1" ngModel>
+      <mat-label>1. Which of these letters does not exist in Irish? </mat-label><br />
+      <mat-radio-button value="1">W</mat-radio-button><br />
+      <mat-radio-button value="2">A</mat-radio-button><br />
+      <mat-radio-button value="3">Q</mat-radio-button><br />
+      <mat-radio-button value="4">L</mat-radio-button><br />
+    </mat-radio-group>
+    <br />
+    <br />
+    <mat-radio-group name ="q2" ngModel>
+      <mat-label>2. Which of these is a social media platform?</mat-label><br />
+      <mat-radio-button value="1">Discord</mat-radio-button><br />
+      <mat-radio-button value="2">Word</mat-radio-button><br />
+      <mat-radio-button value="3">Powerpoint</mat-radio-button><br />
+      <mat-radio-button value="4">Jupyter</mat-radio-button><br />
+    </mat-radio-group>
+    <br />
+    <br />
+    <mat-radio-group name ="q3" ngModel>
+      <mat-label>3. Where does Batman live? </mat-label><br />
+      <mat-radio-button value="1">Thailand</mat-radio-button><br />
+      <mat-radio-button value="2">Gotham</mat-radio-button><br />
+      <mat-radio-button value="3">Wales</mat-radio-button><br />
+      <mat-radio-button value="4">Shanghai</mat-radio-button><br />
+    </mat-radio-group>
+    <br />
+    <br />
+    <mat-radio-group name ="q4" ngModel>
+      <mat-label>4. Who turns everything he touches into gold?</mat-label><br />
+      <mat-radio-button value="1">Posiedon</mat-radio-button><br />
+      <mat-radio-button value="2">Zeus</mat-radio-button><br />
+      <mat-radio-button value="3">Me</mat-radio-button><br />
+      <mat-radio-button value="4">Midas</mat-radio-button><br />
+    </mat-radio-group>
+    <br />
+    <br />
+    <mat-radio-group name ="q5" ngModel>
+      <mat-label>5. What is the name of the company? </mat-label><br />
+      <mat-radio-button value="1">TCS</mat-radio-button><br />
+      <mat-radio-button value="2">Apple</mat-radio-button><br />
+      <mat-radio-button value="3">Sierra Nevada</mat-radio-button><br />
+      <mat-radio-button value="4">Junction</mat-radio-button><br />
+    </mat-radio-group>
+    <br />
+    <br />
+    <mat-radio-group name ="q6" ngModel>
+      <mat-label>6. Are frogs good animals?</mat-label><br />
+      <mat-radio-button value="1">No</mat-radio-button><br />
+      <mat-radio-button value="2">Nope</mat-radio-button><br />
+      <mat-radio-button value="3">Obviously</mat-radio-button><br />
+      <mat-radio-button value="4">Ew</mat-radio-button><br />
+    </mat-radio-group>
+    <br />
+    <br />
+    <mat-radio-group name ="q7" ngModel>
+      <mat-label>7. What is the capital of Colorado </mat-label><br />
+      <mat-radio-button value="1">Austrailia</mat-radio-button><br />
+      <mat-radio-button value="2">Guatemala</mat-radio-button><br />
+      <mat-radio-button value="3">Denver</mat-radio-button><br />
+      <mat-radio-button value="4">Mississippi</mat-radio-button><br />
+    </mat-radio-group>
+    <br />
+    <br />
+    <mat-radio-group name ="q8" ngModel>
+      <mat-label>8. What is the name of the mountain in Colorado Springs?</mat-label><br />
+      <mat-radio-button value="1">Pikes peak</mat-radio-button><br />
+      <mat-radio-button value="2">Everest</mat-radio-button><br />
+      <mat-radio-button value="3">Rockies</mat-radio-button><br />
+      <mat-radio-button value="4">Suez</mat-radio-button><br />
+    </mat-radio-group>
+    <br />
+    <br />
+    <mat-radio-group name ="q9" ngModel>
+      <mat-label>9. What band makes really odd music? </mat-label><br />
+      <mat-radio-button value="1">Adele</mat-radio-button><br />
+      <mat-radio-button value="2">Elon Musk</mat-radio-button><br />
+      <mat-radio-button value="3">Ireland</mat-radio-button><br />
+      <mat-radio-button value="4">Iglooghost</mat-radio-button><br />
+    </mat-radio-group>
+    <br />
+    <br />
+    <mat-radio-group name ="q10" ngModel>
+      <mat-label>10. What is the name of the artist who painted The Scream? </mat-label><br />
+      <mat-radio-button value="1">Dali</mat-radio-button><br />
+      <mat-radio-button value="2">Munch</mat-radio-button><br />
+      <mat-radio-button value="3">Goya</mat-radio-button><br />
+      <mat-radio-button value="4">Magritte</mat-radio-button><br />
+    </mat-radio-group>
+    <br />
+    
+    <button mat-stroked-button color="primary" style="background-color:cornflowerblue" type="submit" name="submit">Store</button>
+    <button mat-stroked-button color="secondary" style="background-color:orangered" type="reset" name="reset">Clear</button>
+  </form>
+</div>

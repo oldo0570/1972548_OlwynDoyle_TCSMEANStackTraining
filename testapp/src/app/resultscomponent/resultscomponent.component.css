@@ -1,0 +1,16 @@
+.mat-radio-button {
+  margin-left: 18px;
+  margin-top: 18px;
+}
+
+#quiz {
+  margin-left: 10%;
+}
+.evaluation{
+    /*font-size: 20px;*/
+    font-weight:bolder;
+}
+
+.results{
+    font-size: 40px;
+}
